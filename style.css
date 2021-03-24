@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-righi{
+    text-align: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+/*Header-sectoon*/
+.header-section{
+    background-color:#34495e;
+    padding: 10px 0;
+
+}
+.header-logo{
+width: 50%;
+
+}
+.onnorokom{}
+.header-manu{
+    width: 50%;
+   
+
+}
+.primare-manu{}
+.primare-manu ul{
+
+}
+.primare-manu ul li{
+    display: inline-block;
+
+
+}
+.primare-manu ul li a{
+    color: #fff;
+        display: block;
+        padding: 10px 10px;
+        line-height: 2em;
+
+}
+.primare-manu ul li:hover > a{
+ background:rgba(0,0,0,.3);
+
+
+    
+}
+/*drop down start*/
+.primare-manu ul li{
+    position: relative;
+ 
+}
+.primare-manu ul li ul{
+    position:absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color:#34495e;
+}
+.primare-manu ul li ul li{
+    display:block;
+    border-top:1px solid #ddd;
+}
+.primare-manu ul li ul li a{
+    display:block;
+    border-bottom: 1px solid #ddd;
+
+}
+/*Hover part*/
+.primare-manu ul li ul{
+    display: none;
+
+}
+.primare-manu ul li:hover ul{
+    display: block;
+}
+.primare-manu ul li ul li a:hover{}
+
+/*Banner section */
+.header-banner{
+    background-color: #3498db;
+    padding: 45px 0;
+
+}
+.product-item{
+    width: 80%;
+  
+}
+.product-item i{
+    color: #ddd;
+    font-size: 47px;
+    font-weight: 400;
+}
+
+.home-page{
+    width: 20%;
+}
+.title{
+    float: left;
+    color: #ddd;
+    font-weight: 400;
+    margin-right: 9px;
+}
+.titleproduct{
+
+}
+.home-page p{
+    color: #34495e;
+}
